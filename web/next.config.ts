@@ -7,10 +7,10 @@ const nextConfig: NextConfig = {
   // Rewrites: allow old .html URLs to resolve to clean routes
   async rewrites() {
     return [
-      {
-        source: "/:path*.html",
-        destination: "/:path*",
-      },
+      { source: "/index.html", destination: "/" },
+      { source: "/:path*/index.html", destination: "/:path*" },
+      { source: "/:path*.html", destination: "/:path*" },
+      { source: "/:path*.htm", destination: "/:path*" },
     ];
   },
 };

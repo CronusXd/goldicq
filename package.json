@@ -1,0 +1,13 @@
+{
+  "name": "goldicq-monorepo",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix web run start",
+    "ingest": "npm --prefix web run ingest"
+  }
+}
