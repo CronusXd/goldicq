@@ -1,0 +1,113 @@
+@charset "utf-8";
+.font12px {
+	FONT-WEIGHT: 700; FONT-SIZE: 12px; FONT-FAMILY: Tahoma;
+}
+.name {
+	WIDTH: 159px;
+	LINE-HEIGHT: 29px;
+	HEIGHT: 29px;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: none;
+	
+}
+.name A:link {
+	DISPLAY: block;
+	PADDING-LEFT: 7px;
+	COLOR: #304558;
+	LINE-HEIGHT: 29px;
+	HEIGHT: 29px;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: none;
+	background-image: url(images0/07.14_igxe_01.jpg);
+}
+.name A:visited {
+	DISPLAY: block;
+	PADDING-LEFT: 7px;
+	COLOR: #304558;
+	LINE-HEIGHT: 29px;
+	HEIGHT: 29px;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: none;
+	background-image: url(images0/07.14_igxe_01.jpg);
+}
+.name A:hover {
+	DISPLAY: block;
+	PADDING-LEFT: 7px;
+	COLOR: #304558;
+	LINE-HEIGHT: 29px;
+	HEIGHT: 29px;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: none;
+	background-image: url(images0/07.14_igxe_01.jpg);
+}
+.name A:active {
+	DISPLAY: block;
+	PADDING-LEFT: 7px;
+	COLOR: #304558;
+	LINE-HEIGHT: 29px;
+	HEIGHT: 29px;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: none;
+	background-image: url(images0/07.14_igxe_01.jpg);
+}
+.adImg {
+	BACKGROUND: #33ff00; OVERFLOW: hidden; WIDTH: 780px; POSITION: relative; HEIGHT: 184px
+}
+.adImg .pic {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 780px; MARGIN-RIGHT: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 184px; BORDER-RIGHT-WIDTH: 0px
+}
+.adImg .pic1 {
+	LEFT: 0px;
+	WIDTH: 468px;
+	TOP: 0px;
+	HEIGHT: 184px;
+	position: absolute;
+}
+.adImg .pic2 {
+	LEFT: 0px;
+	WIDTH: 312px;
+	MARGIN-RIGHT: 0px;
+	TOP: 0px;
+	HEIGHT: 184px;
+	margin-left: 468px;
+	position: absolute;
+}
+.adImg LI.selected A:link {
+	COLOR: #fff;
+	background-image: url(images0/iimg.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.adImg LI.selected A:visited {
+	COLOR: #fff;
+	background-image: url(images0/iimg.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.adImg LI.selected A:hover {
+	COLOR: #fff;
+	background-image: url(images0/iimg.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.adImg LI.selected A:active {
+	COLOR: #fff;
+	background-image: url(images0/iimg.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.adImgBtn {
+	PADDING-RIGHT: 3px;
+	MARGIN-TOP: 0px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	MARGIN-LEFT: 2px;
+	WIDTH: 160px;
+	PADDING-TOP: 3px;
+	LIST-STYLE-TYPE: none;
+	POSITION: relative;
+	HEIGHT: 174px;
+}
+
+
+
