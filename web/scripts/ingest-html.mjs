@@ -60,13 +60,13 @@ async function ensureDir(dirPath) {
   await fs.mkdir(dirPath, { recursive: true });
 }
 
-async function walk(dir) {
+async function* walk(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   for (const entry of entries) {
     if (EXCLUDED_DIRS.has(entry.name)) continue;
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      yield* await walk(fullPath);
+      yield* walk(fullPath);
     } else if (entry.isFile()) {
       yield fullPath;
     }

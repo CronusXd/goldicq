@@ -1,0 +1,155 @@
+@charset "utf-8";
+.qbquickbuy {
+	text-align: left;
+}
+.qbquicktitbg {
+	background-image: url(gametitbg2.gif);
+	background-repeat: no-repeat;
+	height: 25px;
+	line-height: 25px;
+	background-position: left;
+}
+.qbleftcolorbg {
+	background-image: url(gametextbg.gif);
+	background-repeat: repeat-x;
+}
+
+.qbinput3 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	border: 1px solid #0e788b;
+	clip: rect(1px,1px,1px,1px);
+	width: 150px;
+	height: 18px;
+	line-height: 18px;
+}
+.qbregline {
+	background-image: url(rline1.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.qbshopitem {
+	background-image: url(i.gif);
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	padding-left: 15px;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #575757;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.qbshopline {
+	background-image: url(serverline.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	text-align: left;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 70px;
+}
+.qbpadding5 {
+	padding-top: 8px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.qbstyle1 {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	color: #333333;
+}
+
+
+.qbstyle3 {
+	margin-left: 20px;
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a.qbstyle3:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.qbstyle3:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.qbstyle3:hover {
+	color: #FFCC00;
+	text-decoration: underline;
+}
+a.qbstyle3:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.qbstyle5 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FF0000;
+}
+
+.qbstyle17 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	font-weight: bold;
+}
+.qbshopline1 {
+	background-image: url(regline2.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	margin-bottom: 5px;
+	padding-bottom: 3px;
+	margin-top: 3px;
+}
+.qbstyle7 {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-weight: bold;
+	color: #0e788b;
+}
+.qbquickbuybgbig {
+	background-image: url(quickbuybg2.gif);
+	background-repeat: repeat-y;
+	width: 550px;
+}
+.qbquickbuybgbot {
+	background-image: url(quickbg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding: 15px;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+.qbstyle4 {
+	color: #333333;
+	font-size: 12px;
+	font-family: Tahoma;
+}
+.qbstyle9 {
+	color: #FF6600;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+a.qbstyle9:link {
+	color: #FF6600;
+	text-decoration: none;
+}
+a.qbstyle9:visited {
+	color: #FF6600;
+	text-decoration: none;
+}
+a.qbstyle9:hover {
+	color: #990000;
+	text-decoration: none;
+}
